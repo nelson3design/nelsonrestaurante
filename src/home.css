@@ -1,0 +1,722 @@
+.caro-base {
+	width: 100vw;
+	display: grid;
+	place-items: center;
+	margin-top: 20px;
+	
+	z-index: 1;
+	height: auto;
+}
+
+
+.caro-content {
+	width: 1250px;
+	height: 500px;
+
+ 	
+	display: flex;
+	justify-content: space-between;
+	align-items: end; 
+	margin: 0;
+	padding: 0;
+}
+
+.nel{
+	z-index: 1;
+}
+.barra{
+	height: 60px;
+	opacity: 0.8;
+}
+
+.slider {
+	width: 720px;
+	height: 500px;
+	
+	overflow: hidden;
+	
+}
+.sliderBase{
+	width: 720px;
+	height: 500px;
+	overflow: hidden;
+
+}
+.gallery-slide{
+width: 490px;
+height: 480px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.gallery1-slider {
+	width: 490px;
+	height: 230px;
+
+	background-image: url(7.jpg);
+	background-size: cover;
+}
+
+.gallery2-slider {
+	width: 490px;
+	height: 230px;
+
+	background-image: url(2.jpg);
+	background-size: cover;
+}
+
+.option-itens {
+	width: 1250px;
+	height: 100%;
+}
+.imges {
+	width: 720px;
+	height: 580px;
+	background-color: white;
+	display: grid;
+	place-items: center;
+	box-shadow: 4px 4px 10px black;
+}
+.imageAnim {
+	width: 100%;
+	height: 100%;
+	/* background-image: url(3.jpg); */
+	background-size: cover;
+	animation: anim 20s infinite;
+}
+
+@keyframes anim{
+	0%{
+   background-image: url(1.jpg);
+	}
+		10%{
+   background-image: url(1.jpg);
+	}
+
+	20%{
+		background-image: url(2.jpg);
+	}
+
+    40%{
+		background-image: url(7.jpg);
+	}
+
+	60%{
+		background-image: url(4.jpg);
+	}
+
+	80%{
+		background-image: url(13.jpg);
+	}
+
+	100%{
+		background-image: url(16.jpg);
+	}
+}
+
+
+
+.option-images {
+	width: 1250px;
+	height: 100%;
+}
+.info {
+	width: 490px;
+	height: 100%;
+}
+
+.info .filter-1 {
+	
+	animation: filter-1 20s infinite;
+}
+
+
+.info .filter-2 {
+	
+	animation: filter-2 20s infinite;
+}
+.info .filter-3 {
+	
+	animation: filter-3 20s infinite;
+}
+.info .filter-4 {
+	
+	animation: filter-4 20s infinite;
+}
+.info .filter-5 {
+	
+	animation: filter-5 20s infinite;
+}
+.info .filter-6 {
+	
+	animation: filter-6 20s infinite;
+}
+
+@keyframes filter-1{
+	0%{
+  background-color: red;
+	padding: 20px;
+	
+	}
+		10%{
+  background-color: red;
+	padding: 20px;
+	
+	}
+
+	20%{
+		background-color: unset;
+	padding: unset;
+	}
+
+    40%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	60%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	80%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	100%{
+			background-color: unset;
+	padding: unset;
+	}
+}
+
+@keyframes filter-2{
+	0%{
+  background-color: unset;
+	padding: unset;
+	}
+
+	20%{
+		background-color: red;
+	padding: 20px;
+	}
+
+    40%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	60%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	80%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	100%{
+			background-color: unset;
+	padding: unset;
+	}
+}
+
+@keyframes filter-3{
+	0%{
+  		background-color: unset;
+	padding: unset;
+	}
+
+	20%{
+		background-color: unset;
+	padding: unset;
+	}
+
+    40%{
+	 background-color: red;
+	padding: 20px;
+	}
+
+	60%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	80%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	100%{
+			background-color: unset;
+	padding: unset;
+	}
+}
+@keyframes filter-4{
+	0%{
+  		background-color: unset;
+	padding: unset;
+	}
+
+	20%{
+		background-color: unset;
+	padding: unset;
+	}
+
+    40%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	60%{
+	 background-color: red;
+	padding: 20px;
+	}
+
+	80%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	100%{
+			background-color: unset;
+	padding: unset;
+	}
+}
+@keyframes filter-5{
+	0%{
+  		background-color: unset;
+	padding: unset;
+	}
+
+	20%{
+		background-color: unset;
+	padding: unset;
+	}
+
+    40%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	60%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	80%{
+	 background-color: red;
+	padding: 20px;
+	}
+
+	100%{
+			background-color: unset;
+	padding: unset;
+	}
+}
+@keyframes filter-6{
+	0%{
+  		background-color: unset;
+	padding: unset;
+	}
+
+	20%{
+		background-color: unset;
+	padding: unset;
+	}
+
+    40%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	60%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	80%{
+			background-color: unset;
+	padding: unset;
+	}
+
+	100%{
+	 background-color: red;
+	padding: 20px;
+	}
+}
+.filter-1 h4 {
+	
+	animation: filter-text-1 20s infinite;
+}
+.filter-2 h4 {
+	
+	animation: filter-text-2 20s infinite;
+}
+
+.filter-3 h4 {
+	
+	animation: filter-text-3 20s infinite;
+}
+
+.filter-4 h4 {
+	
+	animation: filter-text-4 20s infinite;
+}
+
+.filter-5 h4 {
+	
+	animation: filter-text-5 20s infinite;
+}
+
+.filter-6 h4 {
+	
+	animation: filter-text-6 20s infinite;
+}
+
+
+
+@keyframes filter-text-1{
+	0%{
+  
+	color: white;
+	}
+		10%{
+  
+	color: white;
+	}
+
+	20%{
+	color: unset;
+	}
+
+    40%{
+	color: unset;
+	}
+
+	60%{
+color: unset;
+	}
+
+	80%{
+	color: unset;
+	}
+
+	100%{
+	color: unset;
+	}
+}
+@keyframes filter-text-2{
+	0%{
+  
+	color: unset;
+	}
+
+	20%{
+	color: white;
+	}
+
+    40%{
+	color: unset;
+	}
+
+	60%{
+	color: unset;
+	}
+
+	80%{
+	color: unset;
+	}
+
+	100%{
+		color: unset;
+	}
+}
+@keyframes filter-text-3{
+	0%{
+  
+	color: unset;
+	}
+
+	20%{
+	color: unset;
+	}
+
+    40%{
+	color: white;
+	}
+
+	60%{
+		color: unset;
+	}
+
+	80%{
+			color: unset;
+	}
+
+	100%{
+			color: unset;
+	}
+}
+@keyframes filter-text-4{
+	0%{
+  
+	color: unset;
+	}
+
+	20%{
+		color: unset;
+	}
+
+    40%{
+			color: unset;
+	}
+
+	60%{
+		color: white;
+	}
+
+	80%{
+			color: unset;
+	}
+
+	100%{
+			color: unset;
+	}
+}
+@keyframes filter-text-5{
+	0%{
+  
+	color: unset;
+	}
+
+	20%{
+		color: unset;
+	}
+
+    40%{
+			color: unset;
+	}
+
+	60%{
+			color: unset;
+	}
+
+	80%{
+			color: white;
+	}
+
+	100%{
+			color: unset;
+	}
+}
+@keyframes filter-text-6{
+	0%{
+  
+	color: unset;
+	}
+
+	20%{
+		color: unset;
+	}
+
+    40%{
+			color: unset;
+	}
+
+	60%{
+			color: unset;
+	}
+
+	80%{
+			color: unset;
+	}
+
+	100%{
+			color: white;
+	}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+	.caro-content {
+		width: 100vw;
+
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+	.list-option {
+		width: 100vw;
+		padding: 20px 0;
+		height: auto;
+	}
+	.option-itens h5 {
+		margin: 10px 0;
+	}
+
+	.option-itens {
+		width: 100%;
+		height: 100%;
+	
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+	}
+
+	.option-images {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+		.imges {
+	width: 100vw;
+	height: 580px;
+	padding: 10px;
+	
+	
+}
+
+	.sliderBase {
+		width: 100vw;
+		height: auto;
+	}
+
+			.gallery-slide {
+	width: 100vw;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: -28px;
+}
+
+.gallery1-slider {
+		width: 100vw;
+		height: 500px;
+		margin-top: 20px;
+	}
+	
+
+
+
+	.gallery2-slider {
+		margin-top: 20px;
+		width: 100vw;
+		height: 500px;
+	}
+	.imageAnim {
+	width: 100%;
+	height: 100%;
+	
+}
+.info {
+		width: 100vw;
+		padding:0 10px;
+	
+		height: 600px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 599px) {
+	.caro-content {
+		width: 100vw;
+
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+	}
+	.sliderBase {
+		width: 100vw;
+		height: auto;
+	}
+
+.gallery-slide {
+	width: 100vw;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.gallery1-slider {
+		width: 100vw;
+		height: 300px;
+		margin-top: 20px;
+		margin-top: -10px;
+	}
+
+
+
+
+
+	.gallery2-slider {
+		margin-top: 20px;
+		width: 100vw;
+		height: 300px;
+	}
+	.list-option {
+		width: 100vw;
+		padding: 20px 0;
+		height: auto;
+	}
+	.option-itens {
+		width: 100%;
+		height: 100%;
+		
+		display: flex;
+		flex-direction: column;
+       justify-content: center;
+		align-items: center;
+	}
+	.option-itens h5 {
+		margin: 10px 0;
+	}
+
+	.option-images {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.imges {
+	width: 100vw;
+	height: 580px;
+	padding: 10px;
+	
+	
+}
+
+	.img-anim {
+		width: 100vw;
+		height: 500px;
+		padding: 10px;
+	}
+
+	.info {
+		width: 100vw;
+		padding: 0 10px;
+	
+		height: 700px;
+		
+	}
+	
+	
+
+	.footer span {
+		font-size: 15px;
+	}
+	.imageAnim {
+	width: 100%;
+	height: 100%;
+
+	
+}
+}

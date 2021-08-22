@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    
+        
+    <title>nelsonresto</title>
+</head>
+<body>
+
+    <!-- navibar -->
+
+<nav class="navbar relative w-screen h-28 bg-black ">
+    <div class="navbar-content absolute flex justify-between items-center">
+
+        <div class="logo">
+           <div class="flex justify-center items-center">
+                <span class=" nelson text-5xl text-red-600 px-3 py-2 bg-white font-black uppercase">nelson</span>
+                <span class=" resto text-5xl uppercase px-2 font-black text-white">restau</span>
+            </div>
+        </div>
+        
+        <form class="search" action="">
+            <label class=" icon-search relative cursor-pointer top-0.5 " for="search"><i class="fas fa-search"></i></label>
+            <input class="search-content px-10 -ml-8" type="search" placeholder="Search..." id="search" list="list-search" name="q">
+          <datalist id="list-search">
+           <option value="Breakfast">Breakfast</option>
+                <option value="Lunch"></option>
+                <option value="Dinner"></option>
+                <option value="Dessert"></option>
+            </datalist>
+        </form>
+        
+    </div>
+</nav>
+
+<!-- subnavbar -->
+
+<div class="nav relative w-screen h-12 bg-red-600">
+    <div class="subnav absolute flex justify-between items-center ">
+
+        <div class="icon text-white flex ">
+            <i class="fab fa-facebook-square text-2xl pr-12 cursor-pointer"></i>
+            <i class="fab fa-instagram text-2xl pr-12 cursor-pointer"></i>
+            <i class="fab fa-twitter-square text-2xl pr-12 cursor-pointer"></i>
+            <!-- <i class="fa fa-shopping-cart text-2xl pr-12 cursor-pointer"></i> -->
+            <div id="icon2" class="hidden icon2 ">
+                <i class="fas fa-search  text-2xl cursor-pointe cursor-pointer"></i>
+            </div>
+            <div class="relative">
+                
+                <i class="fas fa-cart-arrow-down text-2xl cursor-pointer cart"></i>
+
+                <i class="fas fa-cart-arrow-down text-white text-2xl cursor-pointer cart2 absolute"></i>
+            </div>
+
+        </div>
+
+        <div class="menu ">
+            <div class="menu-contents">
+                <a class="active text-white uppercase no-underline text-2xl cursor-pointer " href="">home</a>
+             
+                <a class="text-white uppercase no-underline text-2xl  cursor-pointer" href="">gallery</a>
+                <a class="text-white uppercase no-underline text-2xl  cursor-pointer" href="">contact</a>
+
+            </div>
+        </div>
+
+        <div id="icon" class="bar hidden cursor-pointer">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </div>
+</div>
+
+<!-- home -->
+
+
+<div class="caro-base">
+
+    <div class="caro-content relative">
+
+        
+              
+            <h3 class=" nel absolute  top-10 z-10 bg-red-600 p-2  text-white uppercase text-center">nelsonrestau</h3>
+
+            <div class="sliderBase">
+                <img src="1.jpg" alt="">
+                <img src="2.jpg" alt="">
+                <img src="12.jpg" alt="">
+                <img src="4.jpg" alt="">
+            </div>
+
+        
+
+           <div class="gallery-slide">
+                 <div class=" gallery1-slider relative">
+                       <h3 class="nel absolute top-10 z-10 bg-red-600 p-2 text-white uppercase text-center">nelsonrestau</h3>
+
+                    <div class="barra absolute bottom-0 w-full bg-black grid place-items-center">
+                      <p class="text-white">Lorem ipsum dolor sit amet</p>
+                
+                    </div>
+    
+                 </div>
+
+                 <div class="gallery2-slider relative"> 
+                   
+            <h3 class="nel absolute top-10 z-10 bg-red-600 p-2 text-white uppercase text-center">nelsonrestau</h3>
+            
+            <div class="barra absolute bottom-0 w-full bg-black grid place-items-center">
+                <p class="text-white">Lorem ipsum dolor sit amet</p>
+            
+            </div>
+                   </div>
+
+                 </div>
+
+            </div>
+            
+    </div>
+</div>
+
+
+<!-- menu -->
+
+<div class="list-option bg-red-600 w-screen h-16 grid place-items-center">
+    <div class=" option-itens grid  grid-cols-4 place-items-center pt-2 ">
+      <h5 class="Breakfast border-2 border-black rounded-full w-40 text-center py-1 cursor-pointer">Breakfast</h5>
+        <h5 class="Lunch border-2 border-black rounded-full  w-40 text-center py-1 cursor-pointer">Lunch</h5>
+        <h5 class="Dinner border-2 border-black rounded-full w-40 text-center py-1 cursor-pointer">Dinner</h5>
+        <h5 class="Dessert border-2 border-black rounded-full w-40 text-center py-1 cursor-pointer">Dessert</h5>
+    </div>
+
+</div>
+<div  class="option w-screen grid place-items-center bg-red-600">
+    <!-- item quando clicar no botao -->
+
+    <div class="item1 w-screen flex justify-between">
+        <div class="imges border">
+            <div class="image">
+       
+            </div>
+        
+        </div>
+        <div class="items border">
+    
+            <div class="mt-2 px-2">
+                <h4 class="text-white">01. <span class="text-white pl-2">We Serve Best Food In The Country</span></h4>
+                <small class="text-yellow-300">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+            </div>
+
+            <div class="price w-full bg-white py-2 flex justify-between items-center px-2 my-8">
+                <h6>Price</h6>
+                 <div class="text-4xl left-0 text-blue-500 font-bold flex"><h4 class="prix"></h4><small class="text-xl">00</small></div>
+            </div>
+        
+    
+            <div class="cartPlus flex justify-center items-center pb-4">
+                <div class="flex justify-center items-center bg-blue-500 py-2 w-60  rounded-2xl border-2 gap-3 cursor-pointer">
+                    <i class="fas fa-cart-plus text-3xl text-white"></i>
+                    <h5 class="text-white uppercase text-2xl">add to cart</h5>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+<!-- imagens animados -->
+
+<div class="bg-white w-screen grid place-items-center my-4">
+    <div class="option-images flex justify-between">
+
+        <div class="imges rounded-3xl p-2">
+            <div class="imageAnim rounded-3xl">
+            
+            </div>
+
+        </div>
+
+        <div class="info  grid place-items-center">
+            
+                <div class="filter-1 ">               
+                    <h4 class="text-red-600">01. <span class="">We Serve Best Food In The Country</span></h4>  
+                    <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>  
+                </div>
+    
+                <div class="filter-2">
+                    <h4 class="text-red-600">02. <span class="">We Serve Best Food In The Country</span></h4>
+                    <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+                </div>
+           
+
+            <div class="filter-3">
+                <h4 class="text-red-600">03. <span class="">We Serve Best Food In The Country</span></h4>
+                <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+            </div>
+
+
+            <div class="filter-4">
+                <h4 class="text-red-600">04. <span class="">We Serve Best Food In The Country</span></h4>
+                <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+            </div>
+
+
+            <div class="filter-5">
+                <h4 class="text-red-600">05. <span class="">We Serve Best Food In The Country</span></h4>
+                <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+            </div>
+
+            <div class="filter-6">
+                <h4 class="text-red-600">06. <span class="">We Serve Best Food In The Country</span></h4>
+                <small class="">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <div class="w-screen h-28 bg-red-600  grid place-items-center footer ">
+        <span class="text-white">Nelsonrestau © <span class="data"></span> All Rights Reserved | Privacy Policy</span>
+    </div>
+    <div class="w-screen h-4 bg-black">
+
+    </div>
+</footer>
+
+
+
+
+    
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="script.js"></script>
+<script src="slick.js"></script>
+</body>
+</html>

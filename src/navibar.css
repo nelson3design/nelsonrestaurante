@@ -1,0 +1,342 @@
+.nav {
+	z-index: 10;
+}
+.menu {
+	z-index: 100;
+}
+.navbar-content {
+	width: 1364px;
+	width: 1250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.active{
+	border-bottom: 2px solid white;
+	padding: unset;
+	margin: unset;
+}
+
+.search-content,
+.search-content:focus,
+.search-content:active {
+	width: 490px;
+	height: 40px;
+	border-radius: 50px;
+	outline: none;
+}
+
+.subnav {
+	width: 1250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.menu-contents {
+	display: flex;
+	gap: 108px;
+	
+}
+
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+	.icon i {
+		padding-right: 28px;
+	}
+	.icon2 {
+		display: block;
+	}
+	.navbar {
+		height: 160px;
+	}
+	.navbar {
+		height: 140px;
+		height: 100px;
+		overflow: hidden;
+		transition: 1s;
+	}
+	.navbar-content {
+		width: 100vw;
+		height: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+
+	.search {
+		position: relative;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		padding: 0 50px;
+	}
+	.search-content,
+	.search-content:focus,
+	.search-content:active {
+		width: 100%;
+		padding: 0 50px;
+		margin: 0;
+	}
+	.icon-search {
+		position: absolute;
+		top: 9px;
+		left: 70px;
+	}
+	.search {
+		visibility: hidden;
+	}
+	.logo {
+		padding-top: 40px;
+	}
+	.bouton2 .logo {
+		padding-top: 0px;
+	}
+	.bouton2 .navbar {
+		height: 160px;
+
+		overflow: hidden;
+	}
+
+	.bouton2 .search {
+		visibility: visible;
+	}
+
+	.subnav {
+		width: 100vw;
+		top: 50%;
+		left: 50%;
+		padding: 0 50px;
+		transform: translate(-50%, -50%);
+	}
+	.menu {
+		position: absolute;
+		top: 35px;
+		right: 0;
+		left: 0;
+
+		width: 100vw;
+
+		background-color: #dc2626;
+
+		overflow: hidden;
+		visibility: hidden;
+		height: 0px;
+		transition: 0.8s;
+	}
+	.bouton .menu {
+		visibility: visible;
+		height: 3rem;
+		color: white;
+		border-bottom: 2px solid white;
+	}
+	
+	.menu-contents {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu-contents a {
+		padding: 0;
+		margin: 5px 15px;
+
+		color: white;
+		text-align: center;
+	}
+
+	.bar {
+		display: block;
+	}
+	.bar1 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		transition: 0.8s;
+	}
+	.bar2 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		margin: 5px 0;
+	}
+	.bar3 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		transition: 0.8s;
+	}
+
+	.bouton .bar2 {
+		visibility: hidden;
+		margin: 0;
+	}
+
+	.bouton .bar1 {
+		transform: rotate(-315deg);
+	}
+	.bouton .bar3 {
+		transform: rotate(315deg) translateY(-6px) translateX(6px);
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.icon i {
+		padding-right: 28px;
+	}
+	.icon2 {
+		display: block;
+	}
+	.nelson {
+		font-size: 38px;
+	}
+
+	.resto {
+		font-size: 38px;
+	}
+	.navbar {
+		height: 140px;
+		height: 80px;
+		overflow: hidden;
+		transition: 1s;
+	}
+	.navbar-content {
+		width: 100vw;
+		height: 100%;
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.search {
+		position: relative;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+	}
+	.search-content,
+	.search-content:focus,
+	.search-content:active {
+		width: 100%;
+		padding: 0 50px;
+		margin: 0;
+	}
+	.icon-search {
+		position: absolute;
+		top: 9px;
+		left: 30px;
+	}
+	.search {
+		visibility: hidden;
+	}
+	.logo {
+		padding-top: 40px;
+	}
+	.bouton2 .logo {
+		padding-top: 0px;
+	}
+	.bouton2 .navbar {
+		height: 140px;
+
+		overflow: hidden;
+	}
+
+	.bouton2 .search {
+		visibility: visible;
+	}
+
+	.subnav {
+		width: 100vw;
+		top: 50%;
+		left: 50%;
+		padding: 0 10px;
+		transform: translate(-50%, -50%);
+	}
+	.menu {
+		position: absolute;
+		top: 35px;
+		right: 0;
+		left: 0;
+
+		width: 100vw;
+
+		background-color: #dc2626;
+
+		overflow: hidden;
+		visibility: hidden;
+		height: 0px;
+		transition: 0.8s;
+	}
+	.bouton .menu {
+		visibility: visible;
+		height: 3rem;
+		border-bottom: 2px solid white;
+	}
+	.menu-contents {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.menu-contents a {
+		padding: 0;
+		margin: 5px 15px;
+
+		color: white;
+		text-align: center;
+	}
+
+	.bar {
+		display: block;
+	}
+	.bar1 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		transition: 0.8s;
+	}
+	.bar2 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		margin: 5px 0;
+	}
+	.bar3 {
+		width: 30px;
+		height: 5px;
+		background-color: white;
+		transition: 0.8s;
+	}
+
+	.bouton .bar2 {
+		visibility: hidden;
+		margin: 0;
+	}
+
+	.bouton .bar1 {
+		transform: rotate(-315deg);
+	}
+	.bouton .bar3 {
+		transform: rotate(315deg) translateY(-6px) translateX(6px);
+	}
+}
+
+.cart{
+	
+	color: white;
+	
+
+}
+
+.cart2{
+	
+color: #1492E6;
+	left: 1px;
+
+}

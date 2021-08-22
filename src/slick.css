@@ -1,0 +1,88 @@
+
+.slider-prev,
+  .slider-next {
+    border: 0.3125rem solid white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-bottom: unset;
+    border-right: unset;
+    opacity: 0.3;
+  }
+  .slider-prev:hover,
+  .slider-next:hover {
+    opacity: 1;
+  }
+
+.slider-prev {
+  left: 3.125rem;
+  z-index: 1;
+  transform: rotatez(-45deg);
+}
+.slider-next {
+  right: 3.125rem;
+  transform: rotatez(135deg);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: "";
+}
+
+.slick-dots{
+    background-color: black;
+   height: 60px;
+   margin-bottom: 45px;
+   opacity: 0.8;
+ 
+}
+
+
+.slick-dots li {
+ width: 40px;
+ height: 8px;
+ background-color: white;
+ opacity: 0.5;
+ 
+}
+li.slick-active {
+   margin-top: 28px;
+ width: 40px;
+ height: 8px;
+ background-color: white;
+ background-color: red;
+ opacity: 1;
+ 
+}
+
+.slick-dots li button{
+  display: none;
+}
+.slick-dots li.slick-active button{
+  display: none;
+}
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+   .slick-dots{
+  
+   margin-bottom: 23px;
+  
+ 
+}
+}
+
+@media screen and (max-width: 599px) {
+  .slick-dots{
+  
+   margin-bottom: 23px;
+  
+ 
+}
+.slider-prev,
+  .slider-next {
+   opacity: 0;
+  }
+  .slider-prev:hover,
+  .slider-next:hover {
+    opacity: 0;
+  }
+
+}
