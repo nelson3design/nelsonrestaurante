@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>nelsonresto</title>
+</head>
+
+<body>
+
+    <!-- navibar -->
+
+    <nav class="navbar relative w-screen h-28 bg-black ">
+        <div class="navbar-content absolute flex justify-between items-center">
+
+            <div class="logo">
+                <div class="flex justify-center items-center">
+                    <span class=" nelson text-5xl text-red-600 px-3 py-2 bg-white font-black uppercase">nelson</span>
+                    <span class=" resto text-5xl uppercase px-2 font-black text-white">restau</span>
+                </div>
+            </div>
+
+            <form class="search" action="">
+                <label class=" icon-search relative cursor-pointer top-0.5 " for="search"><i
+                        class="fas fa-search"></i></label>
+                <input class="search-content px-10 -ml-8" type="search" placeholder="Search..." id="search"
+                    list="list-search" name="q">
+                <datalist id="list-search">
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch"></option>
+                    <option value="Dinner"></option>
+                    <option value="Dessert"></option>
+                </datalist>
+            </form>
+
+        </div>
+    </nav>
+
+    <!-- subnavbar -->
+
+    <div class="nav relative w-screen h-12 bg-red-600">
+        <div class="subnav absolute flex justify-between items-center ">
+
+            <div class="icon text-white flex ">
+                <i class="fab fa-facebook-square text-2xl pr-12 cursor-pointer"></i>
+                <i class="fab fa-instagram text-2xl pr-12 cursor-pointer"></i>
+                <i class="fab fa-twitter-square text-2xl pr-12 cursor-pointer"></i>
+                <!-- <i class="fa fa-shopping-cart text-2xl pr-12 cursor-pointer"></i> -->
+                <div id="icon2" class="hidden icon2 ">
+                    <i class="fas fa-search  text-2xl cursor-pointe cursor-pointer"></i>
+                </div>
+                <div class="relative">
+
+                    <i class="fas fa-cart-arrow-down text-2xl cursor-pointer cart"></i>
+
+                    <i class="fas fa-cart-arrow-down text-white text-2xl cursor-pointer cart2 absolute"></i>
+                </div>
+
+            </div>
+
+            <div class="menu ">
+                <div class="menu-contents">
+                    <a class=" text-white uppercase no-underline text-2xl cursor-pointer " href="index.html">home</a>
+
+                    <a class="active text-white uppercase no-underline text-2xl  cursor-pointer" href="">gallery</a>
+                    <a class="text-white uppercase no-underline text-2xl  cursor-pointer" href="contact.html">contact</a>
+
+                </div>
+            </div>
+
+            <div id="icon" class="bar hidden cursor-pointer">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- gallery -->
+
+<div class="galleryTitle w-screen grid place-items-center my-6">
+    <h2 class="galleryTitleText">photo gallery</h2>
+</div>
+
+
+<div class="galleryItems w-screen grid place-items-center my-6">
+
+    <div class="colum1">
+        <div class="columImg1 relative">
+            <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+            </div>
+        </div>
+
+        <div class="columImg2">
+            <div class="imagem1 relative">
+                <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                </div>
+            </div>
+            <div class="imagem2 relative">
+                <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="colum2 mt-6">
+        <div class="imagem3 relative">
+            <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                Lorem ipsum dolor sit amet
+            </div>
+        </div>
+
+        <div class="imagem4 relative">
+            <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                Lorem ipsum dolor sit amet
+            </div>
+        </div>
+
+        <div class="imagem5 relative">
+            <div class="itemContent absolute bottom-0 w-full h-16 bg-black text-white grid place-items-center opacity-80">
+                Lorem ipsum dolor sit amet
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+<!-- cart -->
+
+<div class="cartas mb-6">
+    <div class="cartaItem">
+        <div class="cartaText w-full text-center py-8">
+            <h3 class="most text-6xl font-bold text-red-600 capitalize">most <span class="popular">Popular </span>food</h3>
+        </div>
+
+        <div class="cartaImg">
+
+         
+                <div class="carta1">
+                    <div class="cartaImg1"></div>
+                
+                    <div class="cartaImgItem grid place-items-center">
+                        <h3 class="capitalize text-black text-2xl">delicious food</h3>
+                
+                        <div class="icones text-red-600 text-2xl pt-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                
+                        <div class="preco text-xl font-bold pt-2">$10.00</div>
+                
+                        <div class="buton cursor-pointer pt-2">
+                            <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="carta1">
+                    <div class="cartaImg2"></div>
+                
+                    <div class="cartaImgItem grid place-items-center">
+                        <h3 class="capitalize text-black text-2xl">delicious food</h3>
+                
+                        <div class="icones text-red-600 text-2xl pt-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                
+                        <div class="preco text-xl font-bold pt-2">$20.00</div>
+                
+                        <div class="buton cursor-pointer pt-2">
+                            <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <div class="carta1">
+                    <div class="cartaImg3"></div>
+                
+                    <div class="cartaImgItem grid place-items-center">
+                        <h3 class="capitalize text-black text-2xl">delicious food</h3>
+                
+                        <div class="icones text-red-600 text-2xl pt-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                
+                        <div class="preco text-xl font-bold pt-2">$30.00</div>
+                
+                        <div class="buton cursor-pointer pt-2">
+                            <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                        </div>
+                    </div>
+                
+                </div>
+          
+
+       
+            <div class="carta1">
+                <div class="cartaImg4"></div>
+        
+                <div class="cartaImgItem grid place-items-center">
+                    <h3 class="capitalize text-black text-2xl">delicious food</h3>
+        
+                    <div class="icones text-red-600 text-2xl pt-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+        
+                    <div class="preco text-xl font-bold pt-2">$40.00</div>
+        
+                    <div class="buton cursor-pointer pt-2">
+                        <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="carta1">
+                <div class="cartaImg5"></div>
+        
+                <div class="cartaImgItem grid place-items-center">
+                    <h3 class="capitalize text-black text-2xl">delicious food</h3>
+        
+                    <div class="icones text-red-600 text-2xl pt-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+        
+                    <div class="preco text-xl font-bold pt-2">$25.00</div>
+        
+                    <div class="buton cursor-pointer pt-2">
+                        <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <div class="carta1">
+                <div class="cartaImg6"></div>
+        
+                <div class="cartaImgItem grid place-items-center">
+                    <h3 class="capitalize text-black text-2xl">delicious food</h3>
+        
+                    <div class="icones text-red-600 text-2xl pt-2">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+        
+                    <div class="preco text-xl font-bold pt-2">$35.00</div>
+        
+                    <div class="buton cursor-pointer pt-2">
+                        <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                    </div>
+                </div>
+        
+            </div>
+      
+
+
+         
+
+         
+
+        </div>
+    </div>
+
+</div>
+    
+    <!-- footer -->
+
+    <footer>
+        <div class="w-screen h-28 bg-red-600  grid place-items-center footer ">
+            <div class="copy text-white">Nelsonrestau © <span class="data"></span> All Rights Reserved | Privacy
+                Policy</div>
+        </div>
+        <div class="w-screen h-4 bg-black">
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script src="gallery.js"></script>
+    
+    <script src="script.js"></script>
+
+    <script src="slick.js"></script>
+</body>
+
+</html>
