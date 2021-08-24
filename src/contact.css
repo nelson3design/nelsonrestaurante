@@ -1,0 +1,461 @@
+
+.contactTitle{
+     width: 100vw;
+    height: 76px;
+    background-color: #535353;
+}
+.contactText{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactText h2{
+   color: white;
+   font-size: 30px;
+   text-transform: uppercase;
+}
+
+.text1{
+    width: 720px;
+    height: 100%;
+   
+display: grid;
+place-items: center;
+}
+
+.columcontact1{
+    width: 1250px;
+ 
+    display: flex;
+    justify-content: space-between;
+   z-index: 2;
+  
+}
+
+.text-2{
+    width: 100%;
+    height: 60px;
+    background-color: #535353;
+display: grid;
+place-items: center;
+color: white;
+font-size: 25px;
+}
+
+.barcontact{
+    width: 100%;
+    height: 60px;
+     background-color: #535353;
+     position: absolute;
+     top: 0;
+}
+
+.cart-01{
+     width: 280px;
+    height: 406px;
+   
+    position: relative;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactImg1{
+    width: 720px;
+    
+    background-image: url(14.jpg);
+    background-size: cover;
+     height: 500px;
+}
+
+.contactImg2{
+     width: 490px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    background-color: #535353;
+}
+
+.paraf{
+    width: 438px;
+    height: 190px;
+   
+    overflow: hidden;
+    
+}
+.more{
+    display: grid;
+    place-items: center;
+    width: 243px;
+    height: 48px;
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 50px;
+    font-size: 25px;
+
+}
+
+.contactcolum2{
+    width: 1250px;
+    height: 406px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+
+.contactImg3{
+    width: 280px;
+    height: 315px;
+    background-image: url(5.jpg);
+   background-size: cover;
+  
+}
+
+.contactImg4{
+    width: 280px;
+   height: 315px;
+     background-image: url(10.jpg);
+    background-size: 150%;
+    
+    background-position-y: -300px;
+    background-position: -80px;
+}
+
+.contactImg5{
+    width: 280px;
+   height: 315px;
+     background-image: url(6.jpg);
+    background-size: cover;
+   
+}
+
+.contactImg6{
+    width: 280px;
+    height: 315px;
+     background-image: url(9.jpg);
+    background-size: cover;
+    
+    background-position: -100px;
+    
+}
+
+/* map */
+.mapForm{
+    display: grid;
+    place-items: center;
+}
+.map iframe{
+    width: 1250px;
+    height: 525px;
+}
+
+.form{
+  width: 1250px;
+    height: 550px;  
+    display: grid;
+    place-items: center;
+    background-color: #535353; 
+}
+
+.formItem{
+    width: 860px;
+    height: 550px;
+    
+}
+.nomes input{
+    width: 260px;
+    height: 35px;
+    background-color: white;
+     padding: 0 10px;
+}
+
+
+.message textarea{
+   width: 860px;
+    height: 290px; 
+    margin-top: 25px;
+     background-color: white;
+      padding: 0 10px;
+}
+
+.submit{
+   width: 860px;
+    height: 45px; 
+    margin-top: 25px;
+    
+     display: grid;
+     place-items: center;
+     
+}
+
+.submit button{
+    width: 100%;
+    height: 100%;
+   background-color: white;
+     color: black;
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1250px) {
+     .columcontact1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactImg1{
+    width: 100vw;
+
+     height: 500px;
+}
+
+.contactImg2{
+     width: 100vw;
+    height: 400px;
+   text-align: center;
+}
+.paraf{
+    width: 80vw;
+    height: 150px;
+   text-align: center;
+    font-size: 14px;
+}
+.lorem{
+    font-size: 22px;
+}
+.morbi h2{
+    font-size: 16px;
+}
+
+    .contactcolum2{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+  
+}
+
+.map iframe{
+    width: 100vw;
+    height: 525px;
+}
+
+.form{
+  width: 100vw;
+
+    height: auto;  
+    display: grid;
+    place-items: center;
+    background-color: #535353; 
+   
+}
+
+.formItem{
+   width: 100%;
+   
+    height: auto;
+  
+    
+}
+.endereco{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 0;
+gap: 20px;
+}
+
+.nomes {
+width: 100vw; 
+ 
+display: flex;
+flex-direction: column;
+gap: 20px;
+  padding: 0 100px;
+
+}
+
+.nomes input{
+    width: 100vw;
+   width: 100%;
+    height: 35px;
+    background-color: white;
+     padding: 0 10px;
+}
+
+.message{
+   width: 100vw;
+  
+      padding: 0 100px;
+}
+
+
+.message textarea{
+   width: 100vw;
+  width: 100%;
+    height: 290px; 
+   
+     background-color: white;
+       padding: 0 10px;
+}
+
+.submit{
+    width: 100vw;
+    
+    height: 45px; 
+    margin: 25px 0;
+      padding: 0 100px;
+     display: grid;
+     place-items: center;
+     
+}
+
+.submit button{
+  width: 100%;
+    height: 100%;
+     color: black;
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+}
+
+@media screen and (max-width: 599px) {
+    .columcontact1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contactImg1{
+    width: 100vw;
+
+     height: 300px;
+}
+
+.contactImg2{
+     width: 100vw;
+    height: 400px;
+   text-align: center;
+}
+.paraf{
+    width: 80vw;
+    height: 150px;
+   text-align: center;
+    font-size: 14px;
+}
+.lorem{
+    font-size: 22px;
+}
+.morbi h2{
+    font-size: 16px;
+}
+
+    .contactcolum2{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+}
+
+.map iframe{
+    width: 100vw;
+    height: 525px;
+}
+
+.form{
+  width: 100vw;
+
+    height: auto;  
+    display: grid;
+    place-items: center;
+    background-color: #535353; 
+   
+}
+
+.formItem{
+   width: 100%;
+   
+    height: auto;
+  
+    
+}
+.endereco{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 0;
+gap: 20px;
+}
+
+.nomes {
+width: 100vw; 
+ 
+display: flex;
+flex-direction: column;
+gap: 20px;
+  padding: 0 10px;
+
+}
+
+.nomes input{
+    width: 100vw;
+   width: 100%;
+    height: 35px;
+    background-color: white;
+     padding: 0 10px;
+}
+
+.message{
+   width: 100vw;
+  
+       padding: 0 10px;
+}
+
+
+.message textarea{
+   width: 100vw;
+  width: 100%;
+    height: 290px; 
+    margin-top: 25px;
+     background-color: white;
+       padding: 0 10px;
+}
+
+.submit{
+    width: 100vw;
+    /* width: 100%; */
+    height: 45px; 
+    margin: 25px 0;
+      padding: 0 10px;
+     display: grid;
+     place-items: center;
+     
+}
+
+.submit button{
+  width: 100%;
+    height: 100%;
+     color: black;
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+}
+

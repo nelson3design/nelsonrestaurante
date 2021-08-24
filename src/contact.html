@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>nelsonresto</title>
+</head>
+
+<body>
+
+    <!-- navibar -->
+
+    <nav class="navbar relative w-screen h-28 bg-black ">
+        <div class="navbar-content absolute flex justify-between items-center">
+
+            <div class="logo">
+                <div class="flex justify-center items-center">
+                    <span class=" nelson text-5xl text-red-600 px-3 py-2 bg-white font-black uppercase">nelson</span>
+                    <span class=" resto text-5xl uppercase px-2 font-black text-white">restau</span>
+                </div>
+            </div>
+
+            <form class="search" action="">
+                <label class=" icon-search relative cursor-pointer top-0.5 " for="search"><i
+                        class="fas fa-search"></i></label>
+                <input class="search-content px-10 -ml-8" type="search" placeholder="Search..." id="search"
+                    list="list-search" name="q">
+                <datalist id="list-search">
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch"></option>
+                    <option value="Dinner"></option>
+                    <option value="Dessert"></option>
+                </datalist>
+            </form>
+
+        </div>
+    </nav>
+
+    <!-- subnavbar -->
+
+    <div class="nav relative w-screen h-12 bg-red-600">
+        <div class="subnav absolute flex justify-between items-center ">
+
+            <div class="icon text-white flex ">
+                <i class="fab fa-facebook-square text-2xl pr-12 cursor-pointer"></i>
+                <i class="fab fa-instagram text-2xl pr-12 cursor-pointer"></i>
+                <i class="fab fa-twitter-square text-2xl pr-12 cursor-pointer"></i>
+                <!-- <i class="fa fa-shopping-cart text-2xl pr-12 cursor-pointer"></i> -->
+                <div id="icon2" class="hidden icon2 ">
+                    <i class="fas fa-search  text-2xl cursor-pointe cursor-pointer"></i>
+                </div>
+                <div class="relative">
+
+                    <i class="fas fa-cart-arrow-down text-2xl cursor-pointer cart"></i>
+
+                    <i class="fas fa-cart-arrow-down text-white text-2xl cursor-pointer cart2 absolute"></i>
+                </div>
+
+            </div>
+
+            <div class="menu ">
+                <div class="menu-contents">
+                    <a class="text-white uppercase no-underline text-2xl cursor-pointer " href="index.html">home</a>
+
+                    <a class="text-white uppercase no-underline text-2xl  cursor-pointer" href="gallery.html">gallery</a>
+                    <a class="active text-white uppercase no-underline text-2xl  cursor-pointer" href="">contact</a>
+
+                </div>
+            </div>
+
+            <div id="icon" class="bar hidden cursor-pointer">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- home -->
+
+<!-- <div class="contactTitle w-screen grid place-items-center my-6">
+    <div class="grid place-items-center">
+        <div class="contactText">
+          
+           
+        </div>
+    </div>
+</div> -->
+
+
+<div class="w-screen grid place-items-center my-6 relative">
+
+    <div class="barcontact"></div>
+    
+    <div class="columcontact1">
+
+        <div class="content">
+            <h2 class="text-2">A LITTLE BIT ABOUT US</h2>
+            <div class="contactImg1 mt-6">
+                
+            </div>
+        </div>
+
+       <div class="content">
+
+        <h2 class="text-2">OUR OPPORTUNITIES</h2>
+           <div class="contactImg2 py-2 mt-6">
+   
+              <h2 class="lorem text-white text-2xl font-bold">Lorem ipsum dolor sit amet, consectetuer</h2>
+              <p class="paraf text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+           magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+           gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+           elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+           accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+           amet</p>
+              <div class="morbi">
+                  <h2 class="text-white text-xl"><i class="fas fa-caret-right text-red-600"></i>  MORBI NUNC ODIO GRAVIDA AT CURSUS</h2>
+                   <h2 class="text-white text-xl"><i class="fas fa-caret-right text-red-600 my-2"></i>  MORBI NUNC ODIO GRAVIDA AT CURSUS</h2>
+                   <h2 class="text-white text-xl"><i class="fas fa-caret-right text-red-600"></i>  MORBI NUNC ODIO GRAVIDA AT CURSUS</h2>
+              </div>
+              <div class="more cursor-pointer">Learn More</div>
+           </div>
+       </div>
+       
+    </div>
+
+
+    <div class="contactcolum2 mt-6">
+
+   <div class="cart-01">
+
+       <div class="contactImg3 relative">
+
+       </div>
+       <div
+           class="itemContent absolute  bottom-0 w-full h-20 bg-black text-white grid place-items-center opacity-80 py-4">
+         <h2 class="text-2xl">John Meyer</h2>
+         <h3>31 Reviews</h3>
+       </div>
+   </div>
+
+<div class="cart-01">
+
+    <div class="contactImg4 relative">
+
+    </div>
+    <div class="itemContent absolute  bottom-0 w-full h-20 bg-black text-white grid place-items-center opacity-80 py-4">
+        <h2 class="text-2xl">Caroline Beek</h2>
+        <h3>25 Reviews</h3>
+    </div>
+</div>
+
+<div class="cart-01">
+
+    <div class="contactImg5 relative">
+
+    </div>
+    <div class="itemContent absolute bottom-0 w-full h-20 bg-black text-white grid place-items-center opacity-80 py-4">
+        <h2 class="text-2xl">Inga North</h2>
+        <h3>16 Reviews</h3>
+    </div>
+</div>
+
+<div class="cart-01">
+
+    <div class="contactImg6 relative">
+
+    </div>
+    <div class="itemContent absolute bottom-0 w-full h-20 bg-black text-white grid place-items-center opacity-80 py-4">
+        <h2 class="text-2xl">John McCoist</h2>
+        <h3>21 Reviews</h3>
+    </div>
+</div>
+
+       
+       
+
+    </div>
+
+</div>
+
+
+
+
+<div class="galleryTitle w-screen grid place-items-center my-6">
+    <h2 class="galleryTitleText">contact us</h2>
+</div>
+
+<!-- map -->
+
+<div class="mapForm w-screen mb-6">
+     <div class="map">      
+            <iframe src="https://maps.google.com/maps?q=braulio%20sebasti%C3%A3o%20goulat&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>                                       
+     </div>
+
+     <div class="form">
+         <div class="formItem grid place-items-center">
+            <div class="endereco w-full flex justify-between">
+                <h3 class="text-white">Rua Braulio Sebastião Goulart Rio Grande, Plahoça</h3>
+                <h3 class="text-white">nelson3design@gmail.com</h3>
+            </div>
+
+            <form action="">
+                <div class="nomes flex justify-between">
+                    <input type="text" placeholder="Name:">
+                    <input type="text" placeholder="E-mail:">
+                    <input type="number" placeholder="Telephone:">
+                </div>
+
+                <div class="message">
+                    <textarea name="" placeholder="Message..."></textarea>
+                </div>
+                <div class="submit">
+                    <button type="submit">submit</button>
+                </div>
+            </form>
+         </div>
+     </div>
+</div>
+    <!-- footer -->
+
+    <footer>
+        <div class="w-screen h-28 bg-red-600  grid place-items-center footer ">
+            <div class="copy text-white">Nelsonrestau © <span class="data"></span> All Rights Reserved | Privacy
+                Policy</div>
+        </div>
+        <div class="w-screen h-4 bg-black">
+
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+    <script src="contact.js"></script>
+    <script src="script.js"></script>
+
+    <script src="slick.js"></script>
+</body>
+
+</html>
