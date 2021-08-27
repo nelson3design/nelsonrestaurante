@@ -53,11 +53,15 @@
             <div id="icon2" class="hidden icon2 ">
                 <i class="fas fa-search  text-2xl cursor-pointe cursor-pointer"></i>
             </div>
-            <div class="relative">
+            <div class="relative btnCart">
                 
                 <i class="fas fa-cart-arrow-down text-2xl cursor-pointer cart"></i>
 
                 <i class="fas fa-cart-arrow-down text-white text-2xl cursor-pointer cart2 absolute"></i>
+                <input class="input" type="text" value="0">
+            </div>
+            <div class="back">
+                <i class="fas fa-undo  text-2xl cursor-pointer"></i>
             </div>
 
         </div>
@@ -78,13 +82,32 @@
             <div class="bar3"></div>
         </div>
 
+        <div class="carrinho">
+            <div class="cartTitle">
+                <span class="plus px-2 text-white text-3xl cursor-pointer">+</span>
+                <span class="num px-2 text-white"></span>
+                <span class="plus2 px-2 text-white text-3xl cursor-pointer">-</span>
+             
+                <h3 class="empty">your cart is empty</h3>
+                <h4 class="please">please add something in your cart</h4>
+                <h5 class="continue">continue shopping</h5>
+                <!-- <h5>item added to your cart</h5> -->
+               
+            </div>
+            <div class="cartImg">
+              
+            </div>
+           
+        </div>
+      
+
     </div>
 </div>
 
 <!-- home -->
 
 
-<div class="caro-base">
+<div class="caro-base caroShow">
 
     <div class="caro-content relative">
 
@@ -132,7 +155,7 @@
 
 <!-- menu -->
 
-<div class="list-option bg-red-600 w-screen h-16 grid place-items-center">
+<div class="list-option lista bg-red-600 w-screen h-16 grid place-items-center">
     <div class=" option-itens grid  grid-cols-4 place-items-center pt-2 ">
       <h5 class="Breakfast border-2 border-black rounded-full w-40 text-center py-1 cursor-pointer">Breakfast</h5>
         <h5 class="Lunch border-2 border-black rounded-full  w-40 text-center py-1 cursor-pointer">Lunch</h5>
