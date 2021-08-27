@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="style.css">
+    
 
 
     <title>nelsonresto</title>
@@ -48,7 +49,7 @@
 
     <div class="nav relative w-screen h-12 bg-red-600">
         <div class="subnav absolute flex justify-between items-center ">
-
+    
             <div class="icon text-white flex ">
                 <i class="fab fa-facebook-square text-2xl pr-12 cursor-pointer"></i>
                 <i class="fab fa-instagram text-2xl pr-12 cursor-pointer"></i>
@@ -57,34 +58,56 @@
                 <div id="icon2" class="hidden icon2 ">
                     <i class="fas fa-search  text-2xl cursor-pointe cursor-pointer"></i>
                 </div>
-                <div class="relative">
-
+                <div class="relative btnCart">
+    
                     <i class="fas fa-cart-arrow-down text-2xl cursor-pointer cart"></i>
-
+    
                     <i class="fas fa-cart-arrow-down text-white text-2xl cursor-pointer cart2 absolute"></i>
+                    <input class="input hidden" type="text" value="0">
                 </div>
-
+                <div class="back hidden">
+                    <i class="fas fa-undo  text-2xl cursor-pointer"></i>
+                </div>
+    
             </div>
-
+    
             <div class="menu ">
                 <div class="menu-contents">
                     <a class=" text-white uppercase no-underline text-2xl cursor-pointer " href="index.html">home</a>
-
-                    <a class="active text-white uppercase no-underline text-2xl  cursor-pointer" href="">gallery</a>
+    
+                    <a class="active text-white uppercase no-underline text-2xl  cursor-pointer" href="gallery.html">gallery</a>
                     <a class="text-white uppercase no-underline text-2xl  cursor-pointer" href="contact.html">contact</a>
-
+    
                 </div>
             </div>
-
+    
             <div id="icon" class="bar hidden cursor-pointer">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-
+    
+            <div class="carrinho">
+                <div class="cartTitle">
+                    <span class="plus px-2 text-white text-3xl cursor-pointer">+</span>
+                    <span class="num px-2 text-white"></span>
+                    <span class="plus2 px-2 text-white text-3xl cursor-pointer">-</span>
+    
+                    <h3 class="empty">your cart is empty</h3>
+                    <h4 class="please">please add something in your cart</h4>
+                    <h5 class="continue">continue shopping</h5>
+                    <!-- <h5>item added to your cart</h5> -->
+    
+                </div>
+                <div class="cartImg">
+    
+                </div>
+    
+            </div>
+    
+    
         </div>
     </div>
-
     <!-- gallery -->
 
 <div class="galleryTitle w-screen grid place-items-center my-6">
@@ -191,7 +214,7 @@
                         <div class="preco text-xl font-bold pt-2">$20.00</div>
                 
                         <div class="buton cursor-pointer pt-2">
-                            <h3 class="capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
+                            <h3 class="addCart capitalize text-black px-4 text-xl border-2 border-red-600 rounded-2xl">add to cart</h3>
                         </div>
                     </div>
                 
