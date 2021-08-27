@@ -1,3 +1,3 @@
 # nelsonrestaurante
-https://nelsonrestau.netlify.app
-![nelsonrestau](https://user-images.githubusercontent.com/79728556/130537530-de3d8064-f3b4-41e8-abb8-5832c74cf699.png)
+https://nelsonresto.netlify.app
+![nelsonrestau](https://user-images.githubusercontent.com/79728556/131055534-6691ed45-60fc-476c-90c6-431e66f4794a.png)
